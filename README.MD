@@ -6,6 +6,7 @@ Uses HTML5, Javascript
 
 # Features
 
+* Created a AJAX request library
 * 
 
 # Run

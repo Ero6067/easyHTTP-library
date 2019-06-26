@@ -12,12 +12,10 @@ easyHTTP.prototype.get = function(url, callback) {
   this.http.onload = function() {
     //using self instead of this here because this would refer to the function
     if(self.http.status === 200) {
-      callback(self.http.responseText);
+      callback(null, self.http.responseText);
+    } else {
+      callback('Error' + self.http.status);
     }
-  }
-
-  this.http.onload = function() {
-
   }
 
   this.http.send();
