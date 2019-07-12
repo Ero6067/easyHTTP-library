@@ -12,5 +12,5 @@ Uses HTML5, Javascript, AJAX
 
 # Run
 
-* `clone https://github.com/Ero6067/easyHTTP-library.git`
+* `git clone https://github.com/Ero6067/easyHTTP-library.git`
 * open index.html
